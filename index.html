@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+<html>
+<head>
+	<title>
+	 Google Search
+	</title>
+    <meta charset="utf-8">
+    <meta name="viewport' content="width:device-width initial-scale:1">
+	<link rel="Icon Shortcut" href="Google.ico" type="Image/X-icon">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+	<header>
+		<nav >
+			<ul class="nav nav-tabs justify-content-end">
+				<!--https://www.google.com/search?as_q=Ball&as_epq=Best+ball&as_oq=Best+ball&as_eq=Worst+&as_nlo=1&as_nhi=2&lr=lang_en&cr=countryUS&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs=-->
+				<li class="nav-item ">
+					<a class="nav-link" href="#" >Google Search</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#" >Google Image Search</a>
+				</li>
+				<li class="nav-item active ">
+					<a class="nav-link" href="#" >Google Advanced Search</a>
+				</li>
+			
+			</ul>
+		</nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2 col-offset-6">
+				<img class="img-responsive" src="googlelogo.png">
+			</div>
+		</div>
+		<form action="www.google.com/search" >
+			<div class="form-group">
+				<p><label for="first_name">First Name</label>
+				<input type="text" name="q" id="first_name" class="form-control">
+				</p>
+				<button type="submit">Google Search </button>
+			</div>
+		</form>
+	</div>
+	</body>
 </html>
